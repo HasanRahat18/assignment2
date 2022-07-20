@@ -1,27 +1,35 @@
 
- 
 .live-football{
     height: 340px;
     border-radius: 30px;
     display: flex;
     background-color: gray;
 } 
-.live-con{margin-right: 270px;
+.live-con{
+    padding-top: 74px;
+    margin-right: 270px;
     margin-left: 70px;
 }
-.live-con h1,p{
+.live-con h1{
+
+    color: gold;
+
+}
+
+.live-con p{
+
     color: #ffffff;
 
 }
 
 .link-button{
-    text-align: center;
+        text-align: center;
     text-decoration: none;
     background-image: linear-gradient(white,green );
     color: white;
     font-weight: 400;
-    padding: 4px 7px;
-    border-radius: 5px; 
+    padding: 13px 31px;
+    border-radius: 5px;
     cursor: pointer;
 }
 .container{
@@ -72,14 +80,29 @@
     justify-content: space-between;
 
 }
+.course-detail1{
+    text-align: center;
+}
 .course-title{
     padding-right: 90px;
+}
+
+.course-author {
+    margin-right: 171px;
+    color: olive;
+    border-radius: 5px;
+    border: 1px solid olive;
+    display: block;
+    padding: 3px 7px;
+    text-decoration: none;
+    background: #f2f1ee;
+    font-size: 15px;
 }
 .side{
     margin-top: 73px;
 }
 .side aside{width: 312px;
-    background: #161616;
+    background: darkgreen;
     border-radius: 10px;
     padding: 30px;
    
@@ -92,7 +115,7 @@
     text-decoration: none;
     font-size: 20px;
     line-height: 30px;
-    color: #161616;
+    color: green;
     text-align: center;
     transition: 0.2s;
 
