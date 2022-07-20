@@ -1,0 +1,93 @@
+
+ 
+.live-football{
+    height: 340px;
+    border-radius: 30px;
+    display: flex;
+    background-color: lightgreen;
+} 
+.live-con{margin-right: 270px;
+    margin-left: 70px;
+}
+
+.link-button{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(gray,yellow );
+    color: white;
+    font-weight: 400;
+    padding: 4px 7px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.container{
+    background-color: wheat;
+    width: 100%;
+    
+    margin-bottom: 21px;
+    border-radius: 5px;
+
+}
+.section-title{
+    font-size: 24px;    
+    color: #562EFF;
+    margin-top: 3px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.transfer{
+    padding-top: 5px;
+    padding-bottom: 12px;
+    padding-left: 7px;
+    box-shadow: 0px 1px 2px 1px lightgray;
+    border-radius: 6px;
+    margin: 8px;
+    padding-right: 9px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-duration{
+    
+    border-radius: 14px;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.course-title{
+    padding-right: 90px;
+}
+.side{
+    width: 274px;
+    height: 312px;
+    background-color: black;
+    display: grid;
+    margin-left: 25px;
+    padding-top: 27px;
+}
+.last{
+    display: flex;
+}
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .transfer{
+        
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .transfer{
+        flex-direction: column;
+    }
+}
