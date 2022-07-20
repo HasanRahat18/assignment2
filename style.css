@@ -21,17 +21,19 @@
     cursor: pointer;
 }
 .container{
-    background-color: wheat;
-    width: 100%;
+    /* background-color: wheat; */
+    max-width: 100%;
     
-    margin-bottom: 21px;
+    margin: auto;
     border-radius: 5px;
 
 }
 .section-title{
-    font-size: 24px;    
+    font-size: 24px;
     color: #562EFF;
     margin-top: 3px;
+    padding-left: 11px;
+    padding-top: 17px;
 }
 .courses{
     display: grid;
@@ -68,9 +70,9 @@
     padding-right: 90px;
 }
 .side{
-    width: 274px;
-    height: 312px;
-    background-color: black;
+    width: 50%;
+    height: auto;
+    /* background-color: black; */
     display: grid;
     margin-left: 25px;
     padding-top: 27px;
