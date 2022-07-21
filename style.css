@@ -183,7 +183,7 @@ nav > ul > li:hover > ul{
 }
 @media only screen and (max-width:688px) {
     .container{
-        background-color: red;
+        /* background-color: red; */
         grid-template-columns: repeat(1,1fr);
     }
    
