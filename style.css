@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 .live-football{
     align-items: flex-start;
     flex-direction: row;
@@ -181,30 +183,29 @@ nav > ul > li:hover > ul{
     
     
 }
-@media only screen and (max-width:688px) {
-    .container{
-        /* background-color: red; */
-        grid-template-columns: repeat(1,1fr);
+@media  screen and (max-width:688px) {
+   .courses{
+         grid-template-columns: repeat(1,1fr); 
     }
+    
+    
    
 }
 
 
-/* @media only screen  and (min-width:688px)and */
-    /* (max-width:992px){ */
-        
+ @media only screen  and (min-width:688px)and
+     (max-width:992px){ 
+        .live-football{
+            width: 100%;
+        }
         .container{
             width: 100%;
         }
-        .last{
+        .courses{
             
             grid-template-columns: repeat(2,1fr);
         
         }
-        .last{
-            grid-template-columns: repeat(1,1fr);
-        }
-        .transfer{
-            flex-direction: column;
-        }
-    /* } */
+    }
+        
+    
